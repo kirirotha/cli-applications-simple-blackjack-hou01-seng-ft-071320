@@ -15,9 +15,9 @@ def display_card_total(card_total, card)
   # code #display_card_total here
   puts card
   puts card_total
-  new_card_total = card_total + card
-  puts "Your cards add up to " + new_card_total + "."
-  new_card_total
+  #new_card_total = card_total + card
+  #puts "Your cards add up to " + new_card_total + "."
+  #new_card_total
 end
 
 def prompt_user
