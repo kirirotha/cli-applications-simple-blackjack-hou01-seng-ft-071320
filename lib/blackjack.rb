@@ -5,7 +5,8 @@ end
 
 def deal_card
   # code #deal_card here
-  
+  card = rand(1..11)
+  puts card
 end
 
 def display_card_total
@@ -44,3 +45,4 @@ def runner
   # code runner here
 end
     
+deal_card
