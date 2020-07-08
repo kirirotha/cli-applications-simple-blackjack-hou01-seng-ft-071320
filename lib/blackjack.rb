@@ -46,9 +46,10 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
   user_in = ""
   while user_in !="s" && user_in != "h" do
-    user_in = prompt_user
+    user_in = get_user_input
     if user_in == "s"
       return
     
