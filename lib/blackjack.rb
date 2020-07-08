@@ -53,5 +53,6 @@ end
  
 welcome    
 deal_card
-card_total(card)
-card_total(card)
+puts card_total
+#card_total(card)
+#card_total(card)
