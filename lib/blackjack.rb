@@ -39,7 +39,7 @@ def initial_round
   puts card1
   puts card2
   card_total = card1 + card2
-  puts card_total
+  display_card_total(card_total)
   # code #initial_round here
 end
 
