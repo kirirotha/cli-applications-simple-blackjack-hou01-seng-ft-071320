@@ -51,10 +51,10 @@ def hit?
     user_in = prompt_user
     if user_in == "s"
       return
-    end
-    if user_in == "h"
+    
+    elsif user_in == "h"
       deal_card
-    end
+    
     else
       invalid_command
     end
