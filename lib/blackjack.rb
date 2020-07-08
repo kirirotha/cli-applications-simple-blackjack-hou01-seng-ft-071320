@@ -11,7 +11,7 @@ def deal_card
   card
 end
 
-def display_card_total(card_total, card)
+def display_card_total(card_total, new_card)
   # code #display_card_total here
   puts card
   puts card_total
@@ -55,7 +55,7 @@ end
 welcome 
 card_total = 0
 puts card_total
-card = deal_card
+new_card = deal_card
 puts deal_card
-display_card_total(card_total,card)
+display_card_total(card_total,new_card)
 #card_total(card)
