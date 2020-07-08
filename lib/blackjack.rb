@@ -48,13 +48,9 @@ def hit?
   # code hit? here
 end
 
-def invalid_command(user_in)
+def invalid_command
   # code invalid_command here
-  if user_in != "h" 
-    if user_in != "s"
-      puts "Please enter a valid command"
-    end
-  end
+  puts "Please enter a valid command"
 end
 
 #####################################################
