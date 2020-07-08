@@ -56,6 +56,6 @@ welcome
 card_total = 0
 puts card_total
 new_card = deal_card
-puts deal_card
-display_card_total(card_total,new_card)
+puts new_card
+display_card_total(card_total, new_card)
 #card_total(card)
