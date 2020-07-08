@@ -10,7 +10,7 @@ def deal_card
   puts card
 end
 
-def display_card_total(card)
+def display_card_total(card_total, card)
   # code #display_card_total here
   card_total = card_total + card
   puts card_total
