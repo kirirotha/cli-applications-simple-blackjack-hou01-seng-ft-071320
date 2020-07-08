@@ -40,7 +40,7 @@ def initial_round
   puts card2
   card_total = card1 + card2
   display_card_total(card_total)
-  # code #initial_round here
+  card_total
 end
 
 def hit?
