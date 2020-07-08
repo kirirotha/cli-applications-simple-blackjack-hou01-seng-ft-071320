@@ -51,8 +51,8 @@ def runner
   # code runner here
 end
  
-welcome    
-deal_card
-puts card_total
-#card_total(card)
+welcome 
+card_total = 0
+card = deal_card
+card_total(card)
 #card_total(card)
