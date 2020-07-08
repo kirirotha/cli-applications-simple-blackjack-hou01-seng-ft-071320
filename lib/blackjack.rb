@@ -34,6 +34,12 @@ def end_game(card_total)
 end
 
 def initial_round
+  card1 = deal_card
+  card2 = deal_card
+  puts card1
+  puts card2
+  card_total = card1 + card2
+  puts card_total
   # code #initial_round here
 end
 
@@ -53,13 +59,4 @@ def runner
   # code runner here
 end
  
-welcome 
-card_total = 0
-puts card_total
-new_card = deal_card
-puts new_card
-
-prompt_user
-#hit_or_stay = get_user_input
-card_total = 22
-end_game(card_total)
+initial_round
