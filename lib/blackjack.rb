@@ -23,7 +23,8 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets.chomp
+  user_in = gets.chomp
+  user_in
 end
 
 def end_game(card_total)
