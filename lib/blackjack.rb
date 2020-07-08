@@ -52,7 +52,7 @@ def hit?
     if user_in == "s"
       return
     end
-    elsif user_in == "h"
+    if user_in == "h"
       deal_card
     end
     else
