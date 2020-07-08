@@ -46,11 +46,19 @@ end
 
 def hit?
   # code hit? here
-  user_in = prompt_user
-  if user_in == "s"
-    return
-  end
-  if user_in == 
+  user_in = ""
+  while user_in !="s" && user_in != "h" do
+    user_in = prompt_user
+    if user_in == "s"
+      return
+    end
+    elsif user_in == "h"
+      deal_card
+    end
+    else
+      invalid_command
+    end
+  end  
 end
 
 def invalid_command
