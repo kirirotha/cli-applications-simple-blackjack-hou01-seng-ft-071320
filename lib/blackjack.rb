@@ -15,7 +15,7 @@ def display_card_total(card_total, new_card)
   # code #display_card_total here
   puts new_card
   puts card_total
-  #new_card_total = card_total + card
+  new_card_total = card_total + card
   #puts "Your cards add up to " + new_card_total + "."
   #new_card_total
 end
