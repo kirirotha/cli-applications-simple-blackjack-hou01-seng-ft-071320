@@ -58,5 +58,7 @@ puts card_total
 new_card = deal_card
 puts new_card
 total = display_card_total(card_total, new_card)
+total = display_card_total(card_total, new_card)
+
 puts total
 
