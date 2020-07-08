@@ -46,6 +46,11 @@ end
 
 def hit?
   # code hit? here
+  user_in = prompt_user
+  if user_in == "s"
+    return
+  end
+  if user_in == 
 end
 
 def invalid_command
