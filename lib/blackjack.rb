@@ -47,17 +47,8 @@ end
 def hit?
   # code hit? here
   prompt_user
-  get_user_input
-  if user_in == "s"
-    return
-  
-  elsif user_in == "h"
-    deal_card
-  
-  else
-    invalid_command
-    hit?
-  end
+  user_in = get_user_input
+
 end
 
 def invalid_command
