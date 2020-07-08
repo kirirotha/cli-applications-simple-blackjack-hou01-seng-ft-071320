@@ -8,7 +8,6 @@ end
 def deal_card
   # code #deal_card here
   card = rand(1..11)
-  puts card
   card
 end
 
@@ -53,6 +52,8 @@ end
  
 welcome 
 card_total = 0
+puts card_total
 card = deal_card
-card_total(card)
+puts deal_card
+#card_total(card)
 #card_total(card)
