@@ -47,7 +47,7 @@ end
 def hit?
   # code hit? here
   prompt_user
-  user_in = get_user_input
+  get_user_input
 
 end
 
