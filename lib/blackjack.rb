@@ -49,7 +49,8 @@ end
 
 def invalid_command
   # code invalid_command here
-  if (get_user_input != "h") && (get_user_input != "s") 
+  user_in = get_user_input
+  if (user_in != "h") && (user != "s") 
     puts "Please enter a valid command"
   end
 end
