@@ -33,7 +33,8 @@ end
 def end_game(card_total)
   # code #end_game here
   if card_total > 21
-    puts ""
+    puts "Sorry, you hit #{card_total.to_s}. Thanks for playing!"
+  end
 end
 
 def initial_round
@@ -66,4 +67,6 @@ card_total = display_card_total(card_total, new_card)
 card_total = display_card_total(card_total, new_card)
 
 puts card_total
-
+prompt_user
+get_user_input
+end_game(card_total)
