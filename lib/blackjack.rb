@@ -13,7 +13,6 @@ end
 
 def display_card_total(card_total)
   # code #display_card_total here
-  
   puts "Your cards add up to " + new_card_total.to_s + "."
 end
 
