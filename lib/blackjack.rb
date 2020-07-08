@@ -44,5 +44,6 @@ end
 def runner
   # code runner here
 end
-    
+ 
+welcome    
 deal_card
