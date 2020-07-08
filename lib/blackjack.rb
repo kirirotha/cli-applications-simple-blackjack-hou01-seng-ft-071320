@@ -64,4 +64,3 @@ def runner
   # code runner here
 end
  
-get_user_input
