@@ -55,5 +55,5 @@ card_total = 0
 puts card_total
 card = deal_card
 puts deal_card
-#card_total(card)
+card_total(card_total,card)
 #card_total(card)
