@@ -53,7 +53,6 @@ def hit?(card_total)
     display_card_total(card_total)
     return card_total
   elsif user_in == "s"
-    display_card_total(card_total)
     return card_total
   else
     invalid_command
