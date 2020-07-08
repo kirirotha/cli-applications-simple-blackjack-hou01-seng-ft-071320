@@ -68,6 +68,6 @@ card_total = display_card_total(card_total, new_card)
 
 puts card_total
 prompt_user
-get_user_input
+hit_or_stay = get_user_input
 card_total = 22
 end_game(card_total)
