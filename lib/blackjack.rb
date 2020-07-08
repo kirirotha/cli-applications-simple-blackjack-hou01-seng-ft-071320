@@ -23,7 +23,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets.hit_or_stay
+  gets.chomp
 end
 
 def end_game(card_total)
