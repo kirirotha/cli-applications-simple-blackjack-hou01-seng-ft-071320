@@ -58,11 +58,7 @@ card_total = 0
 puts card_total
 new_card = deal_card
 puts new_card
-card_total = display_card_total(card_total, new_card)
-card_total = display_card_total(card_total, new_card)
-card_total = display_card_total(card_total, new_card)
 
-puts card_total
 prompt_user
 #hit_or_stay = get_user_input
 card_total = 22
