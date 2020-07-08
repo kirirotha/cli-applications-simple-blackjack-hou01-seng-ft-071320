@@ -64,4 +64,4 @@ def runner
   # code runner here
 end
  
-initial_round
+get_user_input
