@@ -50,9 +50,9 @@ end
 
 def invalid_command(user_in)
   # code invalid_command here
-  if (user_in != "h") && (user != "s") 
-    puts "Please enter a valid command"
-  end
+  #if (user_in != "h") && (user != "s") 
+    #puts "Please enter a valid command"
+  #end
 end
 
 #####################################################
