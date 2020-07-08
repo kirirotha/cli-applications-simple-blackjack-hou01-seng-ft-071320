@@ -11,13 +11,10 @@ def deal_card
   card
 end
 
-def display_card_total(card_total, new_card)
+def display_card_total(card_total)
   # code #display_card_total here
-  puts new_card
-  puts card_total
-  new_card_total = card_total + new_card
+  
   puts "Your cards add up to " + new_card_total.to_s + "."
-  new_card_total
 end
 
 def prompt_user
